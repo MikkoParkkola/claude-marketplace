@@ -1,0 +1,28 @@
+{
+  "name": "mikko-tools",
+  "owner": {
+    "name": "Mikko Parkkola",
+    "url": "https://github.com/MikkoParkkola"
+  },
+  "metadata": {
+    "description": "Public Claude Code plugins by Mikko Parkkola.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "trvl",
+      "source": { "source": "github", "repo": "MikkoParkkola/trvl" },
+      "description": "Travel search and planning: flights, hotels, trains, ferries, price alerts. No API keys."
+    },
+    {
+      "name": "glyphdown",
+      "source": { "source": "github", "repo": "MikkoParkkola/glyphdown" },
+      "description": "Token-cost reduction for Claude Code: lossless output compression, stacks on prompt caching."
+    },
+    {
+      "name": "anti-ai-tell",
+      "source": { "source": "github", "repo": "MikkoParkkola/anti-ai-tell", "path": "plugins/anti-ai-tell" },
+      "description": "Writing discipline that keeps prose from reading as AI-generated: constraints, linter, checklist."
+    }
+  ]
+}
