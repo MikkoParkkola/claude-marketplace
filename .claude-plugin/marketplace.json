@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "trvl",
-      "source": { "source": "github", "repo": "MikkoParkkola/trvl" },
+      "source": { "source": "github", "repo": "MikkoParkkola/trvl", "path": "plugin" },
       "description": "Travel search and planning: flights, hotels, trains, ferries, price alerts. No API keys."
     },
     {
